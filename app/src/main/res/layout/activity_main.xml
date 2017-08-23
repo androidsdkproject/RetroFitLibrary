@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context="com.example.android1.myapplication.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getbojectjson from url"
+        android:id="@+id/getobject"
+        android:fontFamily="sans-serif"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getobjectarray"
+        android:id="@+id/getarray"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagebutton"
+        android:text="Download Image"
+        />
+
+    <ImageView
+        android:layout_marginTop="20sp"
+        android:id="@+id/imagedownload"
+        android:layout_width="match_parent"
+        android:layout_height="200sp" />
+
+</LinearLayout>
